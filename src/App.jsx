@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/44/">
       <div className="min-h-screen bg-white">
         <Navbar />
         <main>
