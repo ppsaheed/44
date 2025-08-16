@@ -564,7 +564,7 @@ export const companyInfo = {
 
 export const storyContent = {
   title: "From Visitor to Visionary",
-  subtitle: "A UAE Success Story Powered by 44 Digital Business Services",
+  // subtitle: "A UAE Success Story Powered by 44 Digital Business Services",
   story: [
     "He came to the UAE not as a tourist, but as a dreamer. A man with vision — and a visit visa issued by us.",
     "He had no office. No connections. Only ambition in his eyes… and trust in our hands.",
