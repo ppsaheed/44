@@ -444,9 +444,9 @@ export const servicesData = {
 };
 
 export const companyInfo = {
-  name: "44 Digital Business Services LLC",
+  name: "44 Digital Business Services",
   motto: "Government Transactions Simplified",
-  description: "44 Digital Business Services LLC is a UAE-based company dedicated to simplifying and executing all types of government transactions — quickly, accurately, and professionally. Whether it's business licensing, immigration, labor, visas, attestation, or approvals — we handle the paperwork, so you can focus on your vision.",
+  description: "44 Digital Business Services is a UAE-based company dedicated to simplifying and executing all types of government transactions — quickly, accurately, and professionally. Whether it's business licensing, immigration, labor, visas, attestation, or approvals — we handle the paperwork, so you can focus on your vision.",
   address: "Office G21, The Market Mall, DIP 1, Dubai.",
   mobile: "+971 56 164 4144",
   landline: "+971 4 335 0776",
@@ -463,7 +463,7 @@ export const companyInfo = {
 };
 
 export const storyContent = {
-  title: "🌟 From Visitor to Visionary",
+  title: "From Visitor to Visionary",
   subtitle: "A UAE Success Story Powered by 44 Digital Business Services",
   story: [
     "He came to the UAE not as a tourist, but as a dreamer. A man with vision — and a visit visa issued by us.",

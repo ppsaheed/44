@@ -5,7 +5,7 @@ Whether it’s business licensing, immigration, labor, visas, attestation, or ap
 
 —
 
-🌟 From Visitor to Visionary
+From Visitor to Visionary
 
 A UAE Success Story Powered by 44 Digital Business Services
 
