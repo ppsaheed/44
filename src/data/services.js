@@ -387,6 +387,106 @@ export const servicesData = {
       }
     ]
   },
+  rta: {
+    title: "🚗 RTA & Transport Authority Services",
+    subtitle: "Roads & Transport Authority - UAE",
+    description: "At 44 Digital Business Services, we provide comprehensive support for individuals and companies in managing their RTA-related services. From vehicle licensing to permits, fines, and renewals — every process is handled accurately, efficiently, and in full compliance with UAE transport regulations.",
+    categories: [
+      {
+        title: "🔹 Vehicle License Services",
+        services: [
+          "Vehicle License Issuance (Mulkiya) - Private, Commercial, Heavy Trucks & Trailers, Motorcycles",
+          "Vehicle License Amendment - Plate number change/replacement",
+          "Color change registration",
+          "Engine/chassis number updates",
+          "Owner information amendments",
+          "Commercial activity updates for company vehicles"
+        ]
+      },
+      {
+        title: "🔹 Advertisement Permit Services",
+        services: [
+          "Advertisement Permit Issuance",
+          "CID Permit clearance from Dubai Police",
+          "Design approval as per RTA standards",
+          "Vehicle branding permits (stickers, wraps, digital ads)",
+          "Special event/seasonal advertisement permits",
+          "Advertisement Permit Cancellation",
+          "Removal approval for vehicle branding/advertisements"
+        ]
+      },
+      {
+        title: "🔹 Driving License & Fine Services",
+        services: [
+          "Driving License Renewal for all categories",
+          "Eye test arrangements at RTA-approved centers",
+          "Online/smart renewal processing",
+          "Fine Settlement - checking and consolidating outstanding RTA fines",
+          "Online and in-person fine payments",
+          "Fine discounts or settlement schemes guidance"
+        ]
+      },
+      {
+        title: "🔹 Black Points & Additional Services",
+        services: [
+          "Black Points Transferring from vehicle owner to actual driver",
+          "Processing approvals through RTA systems",
+          "Guidance on reducing/removing black points via RTA-approved training",
+          "Vehicle registration & re-registration (new/used cars)",
+          "Export vehicle certificates for shipping abroad",
+          "NOC issuance for vehicle mortgage/release",
+          "Replacement of lost or damaged license cards or plates",
+          "Salik tag issuance & recharge services",
+          "RTA Nol card issuance & recharge services"
+        ]
+      }
+    ]
+  },
+  dubaiCourt: {
+    title: "⚖️ Dubai Court & Ministry of Justice Services",
+    subtitle: "Legal Documentation & Attestation Services",
+    description: "At 44 Digital Business Services, we assist individuals, companies, and investors in completing all legal documentation and attestation requirements through Dubai Courts and the Ministry of Justice (MOJ). Our expert team ensures every process is managed with precision, compliance, and efficiency. All services can be carried out physically at the court or virtually via official video conference.",
+    categories: [
+      {
+        title: "🔹 Agreements & Contracts",
+        services: [
+          "Commercial contracts preparation and notarization",
+          "Partnership agreements",
+          "Service agreements",
+          "Sale & purchase agreements (property, vehicles, businesses)",
+          "Lease and tenancy-related agreements (when notarization is required)",
+          "All agreements prepared in Arabic & English to meet Dubai Court standards"
+        ]
+      },
+      {
+        title: "🔹 Power of Attorney Services",
+        services: [
+          "Power of Attorney (POA) drafting and preparation in Arabic & English",
+          "POA notarization at Dubai Courts/MOJ",
+          "POA attestation for use inside the UAE and abroad",
+          "Guidance on all POA types (General, Special, Property, Vehicle, Banking, etc.)",
+          "Power of Attorney Cancellations",
+          "Filing cancellation requests with Dubai Courts/MOJ",
+          "Publishing legal notices (if applicable)",
+          "Ensuring official records reflect cancellation to prevent misuse"
+        ]
+      },
+      {
+        title: "🔹 Corporate Legal Documentation",
+        services: [
+          "MOA (Memorandum of Association) drafting and notarization",
+          "MOA amendments for share transfers, capital adjustments, partner changes",
+          "Compliance with DED and UAE Company Law",
+          "Certified notarization through Dubai Courts",
+          "Board Resolution notarization for legally binding corporate decisions",
+          "Company restructuring, management changes, financial resolutions",
+          "Opening/closing bank accounts and appointing signatories",
+          "Asset acquisition and corporate approvals",
+          "Legal validation for use with authorities, banks, and third parties"
+        ]
+      }
+    ]
+  },
   ecommerce: {
     title: "💼 Start Selling Online with Major Platforms in the UAE",
     description: "We guide you step-by-step to sell your products on trusted e-commerce platforms like Amazon.ae, Noon, and Careem Now — helping you reach thousands of customers across the UAE and GCC.",
@@ -524,6 +624,16 @@ export const storyContent = {
         "Premium health insurance",
         "Staff Golden Visas for high earners"
       ]
-    }
+    },
+    {
+  "title": "Court Services",
+  "items": [
+    "All Types of Agreements (Commercial, Partnership, Service, Sale/Purchase, Lease)",
+    "Power of Attorney (POA) Notarization",
+    "POA Cancellations",
+    "MOA (Memorandum of Association) Notarization",
+    "Board Resolution Notarization"
+  ]
+}
   ]
 };
