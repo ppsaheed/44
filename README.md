@@ -1,8 +1,8 @@
-# 44 Digital Business Services LLC - Website
+# 44 Digital Business Services - Website
 
 _Last deployment triggered at: 2025-08-16 01:16 AM_
 
-A modern, responsive website for 44 Digital Business Services LLC, a UAE-based company specializing in government transactions and business services.
+A modern, responsive website for 44 Digital Business Services, a UAE-based company specializing in government transactions and business services.
 
 ## 🌟 Features
 
@@ -164,7 +164,7 @@ base: '/'
 
 ## 📞 Contact Information
 
-**44 Digital Business Services LLC**
+**44 Digital Business Services **
 - **Address**: Office G21, The Market Mall, DIP 1, Dubai
 - **Mobile**: +971 56 164 4144
 - **Landline**: +971 4 335 0776
@@ -181,7 +181,7 @@ base: '/'
 
 ## 📄 License
 
-This project is proprietary software belonging to 44 Digital Business Services LLC.
+This project is proprietary software belonging to 44 Digital Business Services.
 
 ## 🆘 Support
 
@@ -191,6 +191,6 @@ For technical support or questions about the website:
 
 ---
 
-**Built with ❤️ in UAE** | © 2025 44 Digital Business Services LLC
+**Built with ❤️ in UAE** | © 2025 44 Digital Business Services
 
 _Note: This line was added to trigger a new deployment to GitHub Pages._

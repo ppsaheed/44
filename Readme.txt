@@ -1,6 +1,6 @@
 Motto: Government Transactions Simplified
 
-44 Digital Business Services LLC is a UAE-based company dedicated to simplifying and executing all types of government transactions — quickly, accurately, and professionally.
+44 Digital Business Services is a UAE-based company dedicated to simplifying and executing all types of government transactions — quickly, accurately, and professionally.
 Whether it’s business licensing, immigration, labor, visas, attestation, or approvals — we handle the paperwork, so you can focus on your vision
 
 —
@@ -666,7 +666,7 @@ We provide full support for:
 📞 Contact us today to kickstart your online selling journey!
 
 
-44 Digital Business Services LLC
+44 Digital Business Services
 
 Office G21, The Market Mall
 DIP 1, Dubai.

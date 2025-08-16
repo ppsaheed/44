@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src={NavbarLogo} alt="44 Digital Business Services LLC Logo" className="h-12 w-auto" />
+            <img src={NavbarLogo} alt="44 Digital Business Services Logo" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

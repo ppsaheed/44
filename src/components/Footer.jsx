@@ -23,7 +23,7 @@ const Footer = () => {
                 <span className="text-white font-bold text-xl">44</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">44 Digital Business Services LLC</h3>
+                <h3 className="text-xl font-bold">44 Digital Business Services </h3>
                 <p className="text-gray-400">{companyInfo.motto}</p>
               </div>
             </div>
