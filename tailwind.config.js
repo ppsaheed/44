@@ -11,8 +11,8 @@ export default {
         'uae-red': '#FF0000',
         'uae-green': '#00732F',
         'uae-black': '#000000',
-        'primary': '#1e40af',
-        'secondary': '#64748b',
+        'primary': '#F58220',
+        'secondary': '#939598',
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
