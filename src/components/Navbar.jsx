@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { companyInfo } from '../data/services';
+import NavbarLogo from '/navbar_logo.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src="navbar_logo.svg" alt="44 Digital Business Services LLC Logo" className="h-12 w-auto" />
+            <img src={NavbarLogo} alt="44 Digital Business Services LLC Logo" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
