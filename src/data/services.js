@@ -2,7 +2,7 @@ export const servicesData = {
   mohre: {
     title: "🇦🇪 MOHRE Services (Tasheel)",
     subtitle: "Ministry of Human Resources & Emiratization",
-    description: "At 44 Digital, we deliver seamless, end-to-end MOHRE solutions with precision, speed, and complete government compliance. From workforce planning to final contract closure — we handle every step with unmatched professionalism.",
+    description: "We deliver seamless, end-to-end MOHRE solutions with precision, speed, and complete government compliance. From workforce planning to final contract closure — we handle every step with unmatched professionalism.",
     categories: [
       {
         title: "🔹 Quota Management",
@@ -303,7 +303,7 @@ export const servicesData = {
   },
   attestation: {
     title: "🟨 Attestation & Translation Services",
-    description: "At 44 Digital, we provide reliable and fast attestation and translation services to meet all your official, legal, and immigration needs — both locally and internationally.",
+    description: "We provide reliable and fast attestation and translation services to meet all your official, legal, and immigration needs — both locally and internationally.",
     attestationServices: {
       title: "✅ Attestation Services:",
       description: "We handle document attestation for various purposes including employment, education, family visas, business setup, and more.",
@@ -328,7 +328,7 @@ export const servicesData = {
   },
   insurance: {
     title: "✅ Insurance Services We Provide with Confidence & Care",
-    description: "At 44 Digital, we help you stay compliant, protected, and worry-free with a range of essential insurance solutions tailored to your personal, professional, and legal needs across the UAE.",
+    description: "We help you stay compliant, protected, and worry-free with a range of essential insurance solutions tailored to your personal, professional, and legal needs across the UAE.",
     types: [
       {
         title: "1️⃣ Health Insurance – For UAE Residents",
@@ -390,7 +390,7 @@ export const servicesData = {
   rta: {
     title: "🚗 RTA & Transport Authority Services",
     subtitle: "Roads & Transport Authority - UAE",
-    description: "At 44 Digital Business Services, we provide comprehensive support for individuals and companies in managing their RTA-related services. From vehicle licensing to permits, fines, and renewals — every process is handled accurately, efficiently, and in full compliance with UAE transport regulations.",
+    description: "We provide comprehensive support for individuals and companies in managing their RTA-related services. From vehicle licensing to permits, fines, and renewals — every process is handled accurately, efficiently, and in full compliance with UAE transport regulations.",
     categories: [
       {
         title: "🔹 Vehicle License Services",
@@ -445,7 +445,7 @@ export const servicesData = {
   dubaiCourt: {
     title: "⚖️ Dubai Court & Ministry of Justice Services",
     subtitle: "Legal Documentation & Attestation Services",
-    description: "At 44 Digital Business Services, we assist individuals, companies, and investors in completing all legal documentation and attestation requirements through Dubai Courts and the Ministry of Justice (MOJ). Our expert team ensures every process is managed with precision, compliance, and efficiency. All services can be carried out physically at the court or virtually via official video conference.",
+    description: "We assist individuals, companies, and investors in completing all legal documentation and attestation requirements through Dubai Courts and the Ministry of Justice (MOJ). Our expert team ensures every process is managed with precision, compliance, and efficiency. All services can be carried out physically at the court or virtually via official video conference.",
     categories: [
       {
         title: "🔹 Agreements & Contracts",
