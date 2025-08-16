@@ -32,9 +32,7 @@ const Navbar = () => {
                 <span>{companyInfo.email}</span>
               </div>
             </div>
-            <div className="hidden md:block">
-              <span className="font-medium">{companyInfo.motto}</span>
-            </div>
+            
           </div>
         </div>
       </div>

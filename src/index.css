@@ -38,7 +38,7 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#7E3011] to-[#A0522D] bg-clip-text text-transparent;
   }
 }
 

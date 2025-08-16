@@ -11,7 +11,7 @@ export default {
         'uae-red': '#FF0000',
         'uae-green': '#00732F',
         'uae-black': '#000000',
-        'primary': '#F58220',
+        'primary': '#7E3011',
         'secondary': '#939598',
       },
       fontFamily: {
