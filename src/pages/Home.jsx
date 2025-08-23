@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { CheckCircle, ArrowRight, Star, Users, Clock, Shield } from 'lucide-react';
-import { companyInfo, storyContent } from '../data/services';
+import { companyInfo, storyContent, servicesData } from '../data/services';
+import ServiceCard from '../components/ServiceCard';
 
 const Home = () => {
   const features = [
@@ -35,6 +36,9 @@ const Home = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fadeInUp">
               <span className="text-gradient">{companyInfo.motto}</span>
             </h1>
+            <div className="flex justify-center items-center gap-6 mb-8 animate-fadeInUp animation-delay-300">
+              <img src="./Gov_logo.png" alt="Government Logo 1" className="w-400 md:w-400" />
+            </div>
             <p className="text-xl text-gray-700 mb-8 animate-fadeInUp animation-delay-200">
               {companyInfo.description}
             </p>
@@ -160,54 +164,8 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: '🇦🇪 MOHRE Services',
-                description: 'Complete workforce management and labor compliance solutions',
-                features: ['Quota Management', 'Labour Cards', 'Work Permits', 'Contract Processing']
-              },
-              {
-                title: '🛂 Immigration Services',
-                description: 'Full immigration support from arrival to settlement',
-                features: ['Visa Processing', 'Golden Visa', 'Family Visas', 'PRO Services']
-              },
-              {
-                title: '🏢 Business Licensing',
-                description: 'Complete business setup and licensing solutions',
-                features: ['Trade License', 'Amendments', 'Renewals', 'External Approvals']
-              },
-              {
-                title: '🟡 Golden Visa',
-                description: '10-year UAE residency for investors and professionals',
-                features: ['Property Investment', 'Professional Category', 'Family Inclusion', 'Fast Processing']
-              },
-              {
-                title: '📋 Attestation Services',
-                description: 'Document attestation and translation services',
-                features: ['MOFA Attestation', 'Embassy Services', 'Certified Translation', 'Legal Documents']
-              },
-              {
-                title: '🛡️ Insurance Services',
-                description: 'Comprehensive insurance solutions for compliance',
-                features: ['Health Insurance', 'Labour Insurance', 'Vehicle Insurance', 'ILOE Coverage']
-              }
-            ].map((service, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-6 card-shadow hover:bg-white transition-colors duration-300">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  {service.description}
-                </p>
-                <ul className="space-y-1 mb-4">
-                  {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center space-x-2">
-                      <CheckCircle className="text-green-500 flex-shrink-0" size={14} />
-                      <span className="text-sm text-gray-700">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            {Object.keys(servicesData).slice(0, 6).map((key) => (
+              <ServiceCard key={key} service={servicesData[key]} />
             ))}
           </div>
 

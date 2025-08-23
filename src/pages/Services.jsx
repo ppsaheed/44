@@ -19,7 +19,10 @@ const Services = () => {
     { id: 'healthLicensing', name: 'Health Licensing' },
     { id: 'attestation', name: 'Attestation' },
     { id: 'insurance', name: 'Insurance' },
+    { id: 'rta', name: 'Transport Authority Services' },
+    { id: 'dubaiCourt', name: 'Dubai Court' },
     { id: 'ecommerce', name: 'E-commerce' }
+
   ];
 
   const filteredServices = Object.entries(servicesData).filter(([key, service]) => {

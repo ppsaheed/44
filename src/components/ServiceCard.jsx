@@ -53,7 +53,16 @@ const ServiceCard = ({ service }) => {
   );
 
   return (
-    <div className="bg-white rounded-lg card-shadow overflow-hidden">
+    <div className="bg-white rounded-lg card-shadow overflow-hidden cursor-pointer" onClick={() => setIsExpanded(!isExpanded)}>
+      {service.thumbnail && (
+        <div className="w-full h-48 overflow-hidden">
+          <img
+            src={service.thumbnail}
+            alt={service.title}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      )}
       <div className="p-6">
         <div className="flex justify-between items-start mb-4">
           <div className="flex-1">
@@ -70,7 +79,6 @@ const ServiceCard = ({ service }) => {
             </p>
           </div>
           <button
-            onClick={() => setIsExpanded(!isExpanded)}
             className="ml-4 p-2 text-gray-500 hover:text-primary transition-colors"
             aria-label={isExpanded ? 'Collapse' : 'Expand'}
           >
