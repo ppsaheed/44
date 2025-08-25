@@ -37,7 +37,7 @@ const Home = () => {
               <span className="text-gradient">{companyInfo.motto}</span>
             </h1>
             <div className="flex justify-center items-center gap-6 mb-8 animate-fadeInUp animation-delay-300">
-              <img src="/44/Gov_logo.png" alt="Government Logo 1" className="w-400 md:w-400" />
+              <img src="/Gov_logo.png" alt="Government Logo 1" className="w-400 md:w-400" />
             </div>
             <p className="text-xl text-gray-700 mb-8 animate-fadeInUp animation-delay-200">
               {companyInfo.description}
