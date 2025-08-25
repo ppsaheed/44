@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://ppsaheed.github.io/44/",
+  "homepage": "https://44digital.ae/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
