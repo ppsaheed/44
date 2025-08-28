@@ -21,18 +21,15 @@ const Navbar = () => {
       {/* Top bar with contact info */}
       <div className="bg-primary text-white py-2">
         <div className="container-max">
-          <div className="flex justify-between items-center text-sm">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-1">
-                <Phone size={14} />
-                <span>{companyInfo.mobile}</span>
-              </div>
-              <div className="flex items-center space-x-1">
-                <Mail size={14} />
-                <span>{companyInfo.email}</span>
-              </div>
+          <div className="flex justify-end items-center text-sm space-x-4">
+            <div className="flex items-center space-x-1">
+              <Phone size={14} />
+              <span>{companyInfo.mobile}</span>
             </div>
-            
+            <div className="flex items-center space-x-1">
+              <Mail size={14} />
+              <span>{companyInfo.email}</span>
+            </div>
           </div>
         </div>
       </div>
