@@ -25,9 +25,9 @@ const Contact = () => {
     const whatsappNumber = '971561644144'; // WhatsApp number without '+'
 
     const formattedMessage = `Full Name: ${formData.name}
-Email(optional): ${formData.email}
+Email: ${formData.email}
 Phone: ${formData.phone}
-Service(optional): ${formData.service}
+Service: ${formData.service}
 Message: ${formData.message}`;
 
     const encodedMessage = encodeURIComponent(formattedMessage);
