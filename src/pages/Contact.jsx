@@ -21,8 +21,20 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // For demo purposes, just log to console
-    console.log('Contact form submitted:', formData);
+
+    const whatsappNumber = '971561644144'; // WhatsApp number without '+'
+
+    const formattedMessage = `Full Name: ${formData.name}
+Email(optional): ${formData.email}
+Phone: ${formData.phone}
+Service(optional): ${formData.service}
+Message: ${formData.message}`;
+
+    const encodedMessage = encodeURIComponent(formattedMessage);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappUrl, '_blank');
+
     setIsSubmitted(true);
     
     // Reset form after 3 seconds
