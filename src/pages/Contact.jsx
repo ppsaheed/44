@@ -281,18 +281,19 @@ Message: ${formData.message}`;
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
                   Our Location
                 </h3>
-                <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center mb-4">
-                  <div className="text-center">
-                    <MapPin className="text-gray-400 mx-auto mb-2" size={48} />
-                    <p className="text-gray-600">Interactive Map</p>
-                    <p className="text-sm text-gray-500">
-                      Office G21, The Market Mall<br />
-                      DIP 1, Dubai, UAE
-                    </p>
-                  </div>
+                <div className="rounded-lg overflow-hidden mb-4" style={{ height: '300px' }}>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.0000000000005!2d55.166516!3d25.004415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f134a00000000%3A0x0!2s44%20Digital%20Business%20Services!5e0!3m2!1sen!2sus!4v1678888888888!5m2!1sen!2sus"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
                 <a
-                  href="https://maps.google.com/?q=Office+G21+The+Market+Mall+DIP+1+Dubai"
+                  href="https://maps.app.goo.gl/obEUfvAzit63tmsS7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full text-center"
