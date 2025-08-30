@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { CheckCircle, ArrowRight, Star, Users, Clock, Shield } from 'lucide-react';
 import { companyInfo, storyContent, servicesData } from '../data/services';
 import ServiceCard from '../components/ServiceCard';
+import ExpandableStory from '../components/ExpandableStory';
 
 const Home = () => {
   const features = [
@@ -91,65 +92,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Success Story Section */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-max">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              {storyContent.title}
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              {storyContent.subtitle}
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            {/* Story Introduction */}
-            <div className="bg-white rounded-lg p-8 card-shadow mb-8">
-              {storyContent.story.map((paragraph, index) => (
-                <p key={index} className="text-lg text-gray-700 mb-4 last:mb-0">
-                  {paragraph}
-                </p>
-              ))}
-            </div>
-
-            {/* Achievements Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {storyContent.achievements.map((achievement, index) => (
-                <div key={index} className="bg-white rounded-lg p-6 card-shadow">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-4">
-                    {achievement.title}
-                  </h3>
-                  <ul className="space-y-2">
-                    {achievement.items.map((item, itemIndex) => (
-                      <li key={itemIndex} className="flex items-start space-x-2">
-                        <CheckCircle className="text-green-500 flex-shrink-0 mt-0.5" size={16} />
-                        <span className="text-gray-700 text-sm">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-
-            {/* Call to Action */}
-            <div className="text-center mt-12">
-              <div className="bg-primary text-white rounded-lg p-8">
-                <h3 className="text-2xl font-bold mb-4">
-                  Your Story Could Be Next
-                </h3>
-                <p className="text-lg mb-6 opacity-90">
-                  Ready to turn your vision into reality? Let's start your UAE success story today.
-                </p>
-                <Link to="/contact" className="bg-white text-primary hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 inline-flex items-center">
-                  Start Your Journey
-                  <ArrowRight className="ml-2" size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* New Expandable Story Section */}
+      <ExpandableStory />
 
       {/* Services Preview */}
       <section className="section-padding bg-white">
