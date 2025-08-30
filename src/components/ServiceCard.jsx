@@ -54,7 +54,7 @@ const ServiceCard = ({ service }) => {
 
   return (
     <div className="bg-white rounded-lg card-shadow overflow-hidden cursor-pointer" onClick={() => setIsExpanded(!isExpanded)}>
-      {service.thumbnail && (
+      {service.thumbnail && service.thumbnailEnabled && (
         <div className="w-full h-48 overflow-hidden">
           <img
             src={service.thumbnail}

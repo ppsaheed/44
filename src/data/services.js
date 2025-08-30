@@ -1,6 +1,7 @@
 export const servicesData = {
   mohre: {
     thumbnail: "/thubimage/card1.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🇦🇪 MOHRE Services (Tasheel)",
     subtitle: "Ministry of Human Resources & Emiratization",
     description: "We deliver seamless, end-to-end MOHRE solutions with precision, speed, and complete government compliance. From workforce planning to final contract closure — we handle every step with unmatched professionalism.",
@@ -50,6 +51,7 @@ export const servicesData = {
   },
   immigration: {
     thumbnail: "/thubimage/card2.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🛂 Immigration Services (GDRFA & Amer)",
     subtitle: "General Directorate of Residency & Foreigners Affairs",
     description: "From first arrival to full settlement, we offer complete immigration support — fast, reliable, and fully compliant with UAE regulations.",
@@ -103,6 +105,7 @@ export const servicesData = {
   },
   det: {
     thumbnail: "/thubimage/card3.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "Dubai Economy & Tourism (DET) Services",
     subtitle: "Business Licensing & Corporate Approvals in Dubai",
     description: "We provide complete support for all DET-related services, ensuring smooth, fast, and fully compliant business transactions — from new license issuance to every kind of amendment and permit.",
@@ -150,6 +153,7 @@ export const servicesData = {
   },
   goldenVisa: {
     thumbnail: "/thubimage/card4.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🟡 Golden Visa Services",
     subtitle: "Secure 10-Year UAE Residency with Confidence",
     description: "Whether you are investing in property, excelling in your profession, or sponsoring your family — we provide complete, compliant, and stress-free support to help you obtain your Golden Visa with ease.",
@@ -196,6 +200,7 @@ export const servicesData = {
   },
   externalApprovals: {
     thumbnail: "/thubimage/card5.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🔐 External Approvals Made Easy",
     subtitle: "Seamless Licensing Support",
     description: "In the UAE, certain business activities require external approvals from specialized government and regulatory bodies before a trade license can be issued or renewed. At 44 Digital, we manage the entire process — efficiently, compliantly, and without delays.",
@@ -264,6 +269,7 @@ export const servicesData = {
   },
   tawjeeh: {
     thumbnail: "/thubimage/card6.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🟨 Tawjeeh Services – For Unskilled Employees",
     description: "We provide complete assistance with Tawjeeh procedures required for unskilled workers as part of their new visa application or renewal process.",
     services: [
@@ -275,6 +281,7 @@ export const servicesData = {
   },
   tadbeer: {
     thumbnail: "/thubimage/card7.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🟦 Tadbeer Services – Domestic Worker Visa Assistance",
     description: "We specialize in end-to-end maid visa processing under Tadbeer system for UAE resident sponsors, whether for new applications or renewals (1-year or 2-year options).",
     services: [
@@ -291,6 +298,7 @@ export const servicesData = {
   },
   healthLicensing: {
     thumbnail: "/thubimage/card8.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🟩 DHA & MOH Licensing Services – For Health Care Professionals",
     description: "We offer complete support for obtaining and renewing professional licenses from the following UAE health authorities:",
     authorities: [
@@ -311,6 +319,7 @@ export const servicesData = {
   },
   attestation: {
     thumbnail: "/thubimage/card9.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🟨 Attestation & Translation Services",
     description: "We provide reliable and fast attestation and translation services to meet all your official, legal, and immigration needs — both locally and internationally.",
     attestationServices: {
@@ -337,6 +346,7 @@ export const servicesData = {
   },
   insurance: {
     thumbnail: "/thubimage/card10.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "✅ Insurance Services We Provide with Confidence & Care",
     description: "We help you stay compliant, protected, and worry-free with a range of essential insurance solutions tailored to your personal, professional, and legal needs across the UAE.",
     types: [
@@ -399,6 +409,7 @@ export const servicesData = {
   },
   rta: {
     thumbnail: "/thubimage/card11.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "🚗 RTA & Transport Authority Services",
     subtitle: "Roads & Transport Authority - UAE",
     description: "We provide comprehensive support for individuals and companies in managing their RTA-related services. From vehicle licensing to permits, fines, and renewals — every process is handled accurately, efficiently, and in full compliance with UAE transport regulations.",
@@ -455,6 +466,7 @@ export const servicesData = {
   },
   dubaiCourt: {
     thumbnail: "/thubimage/card12.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "⚖️ Dubai Court & Ministry of Justice Services",
     subtitle: "Legal Documentation & Attestation Services",
     description: "We assist individuals, companies, and investors in completing all legal documentation and attestation requirements through Dubai Courts and the Ministry of Justice (MOJ). Our expert team ensures every process is managed with precision, compliance, and efficiency. All services can be carried out physically at the court or virtually via official video conference.",
@@ -501,6 +513,7 @@ export const servicesData = {
   },
   ecommerce: {
     thumbnail: "/thubimage/card13.png", // Placeholder thumbnail
+    thumbnailEnabled: false,
     title: "💼 Start Selling Online with Major Platforms in the UAE",
     description: "We guide you step-by-step to sell your products on trusted e-commerce platforms like Amazon.ae, Noon, and Careem Now — helping you reach thousands of customers across the UAE and GCC.",
     platforms: [
