@@ -44,7 +44,7 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp animation-delay-400">
               <Link to="/services" className="btn-primary">
-                Explore Services
+                The Services
                 <ArrowRight className="ml-2" size={20} />
               </Link>
               <Link to="/contact" className="btn-secondary">
