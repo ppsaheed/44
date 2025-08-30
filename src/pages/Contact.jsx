@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, Instagram, Facebook, Linkedin, Youtube } from 'lucide-react';
+import { FaTiktok } from 'react-icons/fa';
 import { companyInfo } from '../data/services';
 
 const Contact = () => {
@@ -82,6 +83,7 @@ Message: ${formData.message}`;
     { name: 'Facebook', icon: Facebook, url: companyInfo.socialMedia.facebook, color: 'hover:text-blue-600' },
     { name: 'LinkedIn', icon: Linkedin, url: companyInfo.socialMedia.linkedin, color: 'hover:text-blue-700' },
     { name: 'YouTube', icon: Youtube, url: companyInfo.socialMedia.youtube, color: 'hover:text-red-600' },
+    { name: 'TikTok', icon: FaTiktok, url: companyInfo.socialMedia.tiktok, color: 'hover:text-black' },
   ];
 
   const serviceOptions = [

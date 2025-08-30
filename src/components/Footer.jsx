@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Globe, Instagram, Facebook, Linkedin, Youtube } from 'lucide-react';
+import { FaTiktok } from 'react-icons/fa';
 import { companyInfo } from '../data/services';
 
 const Footer = () => {
@@ -10,6 +11,7 @@ const Footer = () => {
     { name: 'Facebook', icon: Facebook, url: companyInfo.socialMedia.facebook },
     { name: 'LinkedIn', icon: Linkedin, url: companyInfo.socialMedia.linkedin },
     { name: 'YouTube', icon: Youtube, url: companyInfo.socialMedia.youtube },
+    { name: 'TikTok', icon: FaTiktok, url: companyInfo.socialMedia.tiktok },
   ];
 
   return (
