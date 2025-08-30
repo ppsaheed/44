@@ -33,11 +33,11 @@ const Home = () => {
       <section className="gradient-bg section-padding">
         <div className="container-max">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fadeInUp">
+            <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 animate-fadeInUp">
               <span className="text-gradient">{companyInfo.motto}</span>
             </h1>
             <div className="flex justify-center items-center gap-6 mb-8 animate-fadeInUp animation-delay-300">
-              <img src="/Gov_logo.png" alt="Government Logo 1" className="w-400 md:w-400" />
+              <img src="/Gov_logo.png" alt="Government Logo 1" className="w-300 md:w-300" />
             </div>
             <p className="text-xl text-gray-700 mb-8 animate-fadeInUp animation-delay-200">
               {companyInfo.description}
