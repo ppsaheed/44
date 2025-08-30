@@ -40,6 +40,10 @@
   .text-gradient {
     @apply bg-gradient-to-r from-[#7E3011] to-[#A0522D] bg-clip-text text-transparent;
   }
+
+  .btn-view-all-services {
+    @apply inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-[#7E3011] rounded-full shadow-lg hover:bg-[#A0522D] transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105;
+  }
 }
 
 @layer utilities {

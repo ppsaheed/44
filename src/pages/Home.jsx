@@ -170,7 +170,7 @@ const Home = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Link to="/services" className="btn-primary">
+            <Link to="/services" className="btn-view-all-services">
               View All Services
               <ArrowRight className="ml-2" size={20} />
             </Link>
