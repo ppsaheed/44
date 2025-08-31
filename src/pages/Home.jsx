@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { CheckCircle, ArrowRight, Star, Users, Clock, Shield } from 'lucide-react';
 import { companyInfo, storyContent, servicesData } from '../data/services';
 import ServiceCard from '../components/ServiceCard';
@@ -30,6 +31,11 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>44 Digital Business Services - Government Transactions Simplified</title>
+        <meta name="description" content="44 Digital Business Services - Your trusted partner for all government transactions in the UAE. We specialize in business licensing, immigration, labor, visas, attestation, and approvals." />
+        <meta name="keywords" content="UAE business services, government transactions, visa services, business licensing, immigration, Dubai, UAE, business setup, golden visa" />
+      </Helmet>
       {/* Hero Section */}
       <section className="gradient-bg section-padding">
         <div className="container-max">

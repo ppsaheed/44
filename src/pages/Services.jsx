@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Search, Filter } from 'lucide-react';
 import ServiceCard from '../components/ServiceCard';
 import { servicesData } from '../data/services';
@@ -35,6 +36,11 @@ const Services = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+        <title>Our Services - 44 Digital Business Services</title>
+        <meta name="description" content="Explore our comprehensive range of UAE government transaction services. We offer business licensing, immigration, visa services, and more to simplify your personal and business needs." />
+        <meta name="keywords" content="MOHRE services, immigration UAE, business licensing Dubai, Golden Visa UAE, external approvals, Tawjeeh, Tadbeer, health licensing, attestation services, RTA services" />
+      </Helmet>
       {/* Header Section */}
       <section className="bg-primary text-white section-padding">
         <div className="container-max">

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, Instagram, Facebook, Linkedin, Youtube } from 'lucide-react';
 import { FaTiktok } from 'react-icons/fa';
 import { companyInfo } from '../data/services';
@@ -103,6 +104,11 @@ Message: ${formData.message}`;
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+        <title>Contact Us - 44 Digital Business Services</title>
+        <meta name="description" content="Get in touch with 44 Digital Business Services for a free consultation. Contact us via phone, email, or visit our office in Dubai for expert assistance with all your government transaction needs." />
+        <meta name="keywords" content="contact 44 Digital, UAE business services contact, government transaction support, Dubai business setup help, visa services contact" />
+      </Helmet>
       {/* Header Section */}
       <section className="bg-primary text-white section-padding">
         <div className="container-max">
