@@ -92,6 +92,38 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Achievements Grid */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-max">
+         
+
+          <div className="max-w-4xl mx-auto">
+           
+
+            {/* Achievements Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {storyContent.achievements.map((achievement, index) => (
+                <div key={index} className="bg-white rounded-lg p-6 card-shadow">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-4">
+                    {achievement.title}
+                  </h3>
+                  <ul className="space-y-2">
+                    {achievement.items.map((item, itemIndex) => (
+                      <li key={itemIndex} className="flex items-start space-x-2">
+                        <CheckCircle className="text-green-500 flex-shrink-0 mt-0.5" size={16} />
+                        <span className="text-gray-700 text-sm">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+
+          
+          </div>
+        </div>
+      </section>
+      
       {/* New Expandable Story Section */}
       <ExpandableStory />
 
