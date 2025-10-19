@@ -44,7 +44,7 @@ const WhatsAppButton = () => {
         <div className="absolute bottom-16 right-0 mb-2 bg-white text-gray-800 px-4 py-2 rounded-lg shadow-lg max-w-xs animate-bounce">
           <div className="flex items-center space-x-2">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <p className="text-sm font-medium">Hello, I'm Areekal. How may I help you?</p>
+            <p className="text-sm font-medium">Hello, I'm Hamad. How may I help you?</p>
           </div>
           <div className="absolute bottom-0 right-4 w-0 h-0 border-l-4 border-r-4 border-t-4 border-l-transparent border-r-transparent border-t-white"></div>
         </div>
