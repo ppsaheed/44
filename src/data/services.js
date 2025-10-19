@@ -467,7 +467,7 @@ export const servicesData = {
   dubaiCourt: {
     thumbnail: "/thubimage/card12.png", // Placeholder thumbnail
     thumbnailEnabled: false,
-    title: "⚖️ Dubai Court & Ministry of Justice Services",
+    title: "Dubai Court & Ministry of Justice Services",
     subtitle: "Legal Documentation & Attestation Services",
     description: "We assist individuals, companies, and investors in completing all legal documentation and attestation requirements through Dubai Courts and the Ministry of Justice (MOJ). Our expert team ensures every process is managed with precision, compliance, and efficiency. All services can be carried out physically at the court or virtually via official video conference.",
     categories: [
