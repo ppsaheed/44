@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
+import GoogleMapsButton from './components/GoogleMapsButton';
 
 function App() {
   return (
@@ -76,6 +77,7 @@ function App() {
         </main>
         <Footer />
         <WhatsAppButton />
+        <GoogleMapsButton />
       </div>
     </Router>
   );
