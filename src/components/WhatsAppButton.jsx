@@ -16,17 +16,17 @@ const WhatsAppButton = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const scrollThreshold = 300; // Trigger after scrolling 300px
+      const scrollThreshold = 350; // Trigger after scrolling 300px
 
       if (scrollY > scrollThreshold && !hasTriggered) {
         setShowMessage(true);
         setHasTriggered(true);
         playNotificationSound();
 
-        // Auto-hide message after 5 seconds
+        // Auto-hide message after 10 seconds
         setTimeout(() => {
           setShowMessage(false);
-        }, 5000);
+        }, 10000);
       } else if (scrollY <= scrollThreshold) {
         setShowMessage(false);
         setHasTriggered(false);
