@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                <img src="apple-touch-icon-0e175f21.png" alt="44" className="w-8 h-8" />
+                <img src="/assets/apple-touch-icon-0e175f21.png" alt="44" className="w-8 h-8" />
               </div>
               <div>
                 <h3 className="text-xl font-bold">44 Digital Business Services </h3>
