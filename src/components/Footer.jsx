@@ -85,14 +85,52 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Contact Info & Locations */}
           <div>
+            <div className="mb-8">
+              <h4 className="text-lg font-semibold mb-4 flex items-center">
+                <MapPin size={20} className="text-primary mr-2" />
+                Our Branches
+              </h4>
+              <ul className="space-y-4">
+                <li>
+                  <div className="text-gray-300 font-medium text-sm">KB14 – Palm Jumeirah Mall</div>
+                  <div className="flex items-center justify-between mt-1">
+                    <a href="tel:+971561644144" className="text-xs text-gray-400 hover:text-white transition-colors flex items-center">
+                      <Phone size={12} className="mr-1" /> +971 56 164 4144
+                    </a>
+                    <a href="https://maps.app.goo.gl/6cfDEXE3YraoM2jD8" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:text-white transition-colors">
+                      View Map →
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div className="text-gray-300 font-medium text-sm">G21 – The Market Mall</div>
+                  <div className="flex items-center justify-between mt-1">
+                    <a href="tel:+971525924362" className="text-xs text-gray-400 hover:text-white transition-colors flex items-center">
+                      <Phone size={12} className="mr-1" /> +971 52 592 4362
+                    </a>
+                    <a href="https://maps.app.goo.gl/aosk94Ri3WSSLYrh7" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:text-white transition-colors">
+                      View Map →
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div className="text-gray-300 font-medium text-sm">M07 – Al Tawar</div>
+                  <div className="flex items-center justify-between mt-1">
+                    <a href="tel:+971545424311" className="text-xs text-gray-400 hover:text-white transition-colors flex items-center">
+                      <Phone size={12} className="mr-1" /> +971 54 542 4311
+                    </a>
+                    <a href="https://maps.app.goo.gl/tmajZrNwW1ph5XSa6" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:text-white transition-colors">
+                      View Map →
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
-                <MapPin size={18} className="text-primary mt-1 flex-shrink-0" />
-                <span className="text-gray-300">{companyInfo.address}</span>
-              </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-primary flex-shrink-0" />
                 <div>
