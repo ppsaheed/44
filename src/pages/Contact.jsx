@@ -289,12 +289,6 @@ Message: ${formData.message}`;
                 <div className="space-y-6">
                   {[
                     {
-                      name: "KB14 – Palm Jumeirah Mall, Dubai",
-                      phone: "+971561644144",
-                      phoneLink: "971561644144",
-                      mapLink: "https://maps.app.goo.gl/6cfDEXE3YraoM2jD8"
-                    },
-                    {
                       name: "G21 – The Market Mall, DIP1, Dubai",
                       phone: "+971 52 592 4362",
                       phoneLink: "971525924362",

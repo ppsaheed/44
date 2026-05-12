@@ -94,17 +94,6 @@ const Footer = () => {
               </h4>
               <ul className="space-y-4">
                 <li>
-                  <div className="text-gray-300 font-medium text-sm">KB14 – Palm Jumeirah Mall</div>
-                  <div className="flex items-center justify-between mt-1">
-                    <a href="tel:+971561644144" className="text-xs text-gray-400 hover:text-white transition-colors flex items-center">
-                      <Phone size={12} className="mr-1" /> +971 56 164 4144
-                    </a>
-                    <a href="https://maps.app.goo.gl/6cfDEXE3YraoM2jD8" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:text-white transition-colors">
-                      View Map →
-                    </a>
-                  </div>
-                </li>
-                <li>
                   <div className="text-gray-300 font-medium text-sm">G21 – The Market Mall</div>
                   <div className="flex items-center justify-between mt-1">
                     <a href="tel:+971525924362" className="text-xs text-gray-400 hover:text-white transition-colors flex items-center">
