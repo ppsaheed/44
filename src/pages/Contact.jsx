@@ -283,28 +283,54 @@ Message: ${formData.message}`;
             <div className="space-y-8">
               {/* Map Placeholder */}
               <div className="bg-white rounded-lg p-8 card-shadow">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Our Location
+                <h3 className="text-xl font-semibold text-gray-900 mb-6">
+                  Our Locations
                 </h3>
-                <div className="rounded-lg overflow-hidden mb-4" style={{ height: '300px' }}>
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.0000000000005!2d55.166516!3d25.004415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f134a00000000%3A0x0!2s44%20Digital%20Business%20Services!5e0!3m2!1sen!2sus!4v1678888888888!5m2!1sen!2sus"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  ></iframe>
+                <div className="space-y-6">
+                  {[
+                    {
+                      name: "KB14 – Palm Jumeirah Mall, Dubai",
+                      phone: "+971561644144",
+                      phoneLink: "971561644144",
+                      mapLink: "https://maps.app.goo.gl/6cfDEXE3YraoM2jD8"
+                    },
+                    {
+                      name: "G21 – The Market Mall, DIP1, Dubai",
+                      phone: "+971 52 592 4362",
+                      phoneLink: "971525924362",
+                      mapLink: "https://maps.app.goo.gl/aosk94Ri3WSSLYrh7"
+                    },
+                    {
+                      name: "M07 – Sharjah Islamic Bank Building, Al Tawar, Qusais",
+                      phone: "+971 54 542 4311",
+                      phoneLink: "971545424311",
+                      mapLink: "https://maps.app.goo.gl/tmajZrNwW1ph5XSa6"
+                    }
+                  ].map((loc, i) => (
+                    <div key={i} className="border-b border-gray-100 last:border-0 pb-6 last:pb-0">
+                      <h4 className="font-semibold text-gray-900 mb-2 flex items-start">
+                        <MapPin className="text-primary mt-1 mr-2 flex-shrink-0" size={18} />
+                        {loc.name}
+                      </h4>
+                      <div className="pl-6 space-y-3">
+                        <p className="text-gray-600 flex items-center">
+                          <Phone className="text-gray-400 mr-2" size={16} />
+                          <a href={`tel:+${loc.phoneLink}`} className="hover:text-primary transition-colors">
+                            {loc.phone}
+                          </a>
+                        </p>
+                        <a
+                          href={loc.mapLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block text-sm text-primary font-medium hover:underline"
+                        >
+                          View on Google Maps →
+                        </a>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-                <a
-                  href="https://maps.app.goo.gl/obEUfvAzit63tmsS7"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary w-full text-center"
-                >
-                  View on Google Maps
-                </a>
               </div>
 
               {/* Social Media */}
